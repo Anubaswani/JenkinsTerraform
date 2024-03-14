@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "jenkins-terraform243"
+    bucket = "terraformjenkins6"
     key = "main" 
-    region = "ap-south-1"
-    dynamodb_table = "terraform-state-table"
+    region = "us-east-2"
+    dynamodb_table = "terraformjenkins"
   }
 }
